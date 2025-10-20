@@ -8,6 +8,8 @@ public class BibliotecaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BibliotecaApplication.class, args);
+        BienvenidaController bc=new BienvenidaController();
+        System.out.println(bc.bienvenida());
 	}
 
 }
