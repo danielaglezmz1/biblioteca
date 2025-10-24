@@ -11,6 +11,5 @@ public class BienvenidaController {
     @GetMapping
     public String bienvenida() {
         return "Bienvenid@ al IEs Monte Naranco";
-
     }
 }
