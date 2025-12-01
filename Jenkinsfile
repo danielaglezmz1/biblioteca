@@ -9,7 +9,7 @@ pipeline{
             steps{
                 bat 'echo "Primer stage del pipeline"'
             }
-
         }
     }
+
 }
